@@ -5,7 +5,7 @@ var acc_max = 0;
 
 document.addEventListener("deviceready", function(){
     navigator.notification.beep(1);
-  	navigator.notification.vibrate(0);
+    navigator.notification.vibrate(0);
     accel(true);
 }, true);
 
