@@ -14,7 +14,7 @@ $(function(){
     $('div#color').css('width','100%').css('height',400).css('background-color', '#000000');
     $('div#color').click(function(){
         navigator.notification.beep(1);
-  	    navigator.notification.vibrate(0);
+        navigator.notification.vibrate(0);
     });
 });
 
